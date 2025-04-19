@@ -1,9 +1,13 @@
 import './App.css'
+import React from 'react';
+import MemoTagLandingPage from './MemoTagLandingPage';
 
-export default function App() {
+function App() {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-    </main>
-  )
+    <div className="App">
+      <MemoTagLandingPage />
+    </div>
+  );
 }
+
+export default App;
